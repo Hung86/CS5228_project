@@ -15,11 +15,12 @@ options(stringsAsFactors = FALSE);
 # See note above.
 enableWGCNAThreads()
 # Load the data saved in the first part
-lnames = load(file = "1-dataInput.RData");
+lnames = load(file = "GBM_1-dataInput.RData");
 #The variable lnames contains the names of loaded variables.
 lnames
-
-
+dim(datExpr)
+col = ncol(datExpr)
+row = nrow(datExpr)
 #######################################
 
 # Choose a set of soft-thresholding powers
@@ -45,30 +46,72 @@ main = paste("Mean connectivity"))
 text(sft$fitIndices[,1], sft$fitIndices[,5], labels=powers, cex=cex1,col="red")
 
 
+
 #######################################
+##Co-expression similarity and adjacency
+softPower = 5;
+adjacency = adjacency(datExpr, power = softPower);
+
+# Turn adjacency into topological overlap
+TOM = TOMsimilarity(adjacency);
+dissTOM = 1-TOM
 
 
-net = blockwiseModules(datExpr0, power = 7,
-		TOMType = "unsigned", minModuleSize = 40,
-		reassignThreshold = 0, mergeCutHeight = 0.25,
-		numericLabels = TRUE, pamRespectsDendro = FALSE,
-		saveTOMs = TRUE,
-		saveTOMFileBase = "femaleMouseTOM",
-		verbose = 3)
+# Call the hierarchical clustering function
+geneTree = hclust(as.dist(dissTOM), method = "average");
+# Plot the resulting clustering tree (dendrogram)
+sizeGrWindow(12,9)
+plot(geneTree, xlab="", sub="", main = "Gene clustering on TOM-based dissimilarity",
+labels = FALSE, hang = 0.04);
 
-# open a graphics window
+
+############################################3
+# We like large modules, so we set the minimum module size relatively high:
+minModuleSize = 30;
+# Module identification using dynamic tree cut:
+dynamicMods = cutreeDynamic(dendro = geneTree, distM = dissTOM,
+deepSplit = 2, pamRespectsDendro = FALSE,
+minClusterSize = minModuleSize);
+table(dynamicMods)
+length(dynamicMods)
+#####################################3
+# Convert numeric lables into colors
+dynamicColors = labels2colors(dynamicMods)
+table(dynamicColors)
+# Plot the dendrogram and colors underneath
+sizeGrWindow(8,6)
+plotDendroAndColors(geneTree, dynamicColors, "Dynamic Tree Cut",
+dendroLabels = FALSE, hang = 0.03,
+addGuide = TRUE, guideHang = 0.05,
+main = "Gene dendrogram and module colors")
+
+########################################
+MEDissThres = 0.25
+# Plot the cut line into the dendrogram
+abline(h=MEDissThres, col = "red")
+# Call an automatic merging function
+merge = mergeCloseModules(datExpr, dynamicColors, cutHeight = MEDissThres, verbose = 3)
+# The merged module colors
+mergedColors = merge$colors;
+# Eigengenes of the new merged modules:
+mergedMEs = merge$newMEs;
+
 sizeGrWindow(12, 9)
-# Convert labels to colors for plotting
-mergedColors = labels2colors(net$colors)
-# Plot the dendrogram and the module colors underneath
-plotDendroAndColors(net$dendrograms[[1]], mergedColors[net$blockGenes[[1]]],
-	"Module colors", dendroLabels = FALSE, hang = 0.03,
-	addGuide = TRUE, guideHang = 0.05)
+#pdf(file = "Plots/geneDendro-3.pdf", wi = 9, he = 6)
+plotDendroAndColors(geneTree, cbind(dynamicColors, mergedColors),
+c("Dynamic Tree Cut", "Merged dynamic"),
+dendroLabels = FALSE, hang = 0.03,
+addGuide = TRUE, guideHang = 0.05)
+#dev.off()
 
-moduleLabels = net$colors
-table(moduleLabels)
-moduleColors = labels2colors(net$colors)
-MEs = net$MEs;
-geneTree = net$dendrograms[[1]];
+
+# Rename to moduleColors
+moduleColors = mergedColors
+# Construct numerical labels corresponding to the colors
+colorOrder = c("grey", standardColors(50));
+moduleLabels = match(moduleColors, colorOrder)-1;
+MEs = mergedMEs;
+# Save module colors and labels for use in subsequent parts
 save(MEs, moduleLabels, moduleColors, geneTree,
-file = "2-module-auto.RData")
+ 	file = "GBM-02-networkConstruction.RData")
+
