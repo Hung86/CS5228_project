@@ -1,0 +1,51 @@
+GO.ID Term Annotated Significant Expected weightFisher p.adj
+GO:0060945 cardiac neuron differentiation 1 1 0 0.0021 1
+GO:0032752 positive regulation of interleukin-3 pro... 1 1 0 0.0021 1
+GO:0106028 neuron projection retraction 1 1 0 0.0021 1
+GO:0006589 octopamine biosynthetic process 2 1 0 0.0042 1
+GO:0043366 beta selection 2 1 0 0.0042 1
+GO:0045425 positive regulation of granulocyte macro... 2 1 0 0.0042 1
+GO:0099557 trans-synaptic signaling by trans-synapt... 2 1 0 0.0042 1
+GO:0051389 inactivation of MAPKK activity 2 1 0 0.0042 1
+GO:1904782 negative regulation of NMDA glutamate re... 2 1 0 0.0042 1
+GO:0140039 cell-cell adhesion in response to extrac... 2 1 0 0.0042 1
+GO:0006954 inflammatory response 510 6 1.07 0.0062 1
+GO:0071226 cellular response to molecule of fungal ... 3 1 0.01 0.0063 1
+GO:0002554 serotonin secretion by platelet 3 1 0.01 0.0063 1
+GO:0022614 membrane to membrane docking 3 1 0.01 0.0063 1
+GO:0048170 positive regulation of long-term neurona... 3 1 0.01 0.0063 1
+GO:0038156 interleukin-3-mediated signaling pathway 4 1 0.01 0.0084 1
+GO:1904783 positive regulation of NMDA glutamate re... 4 1 0.01 0.0084 1
+GO:0090237 regulation of arachidonic acid secretion 5 1 0.01 0.0105 1
+GO:0019800 peptide cross-linking via chondroitin 4-... 5 1 0.01 0.0105 1
+GO:0015015 heparan sulfate proteoglycan biosyntheti... 5 1 0.01 0.0105 1
+GO:2000556 positive regulation of T-helper 1 cell c... 5 1 0.01 0.0105 1
+GO:0071447 cellular response to hydroperoxide 5 1 0.01 0.0105 1
+GO:0043280 positive regulation of cysteine-type end... 78 2 0.16 0.0114 1
+GO:0007229 integrin-mediated signaling pathway 78 2 0.16 0.0114 1
+GO:0021631 optic nerve morphogenesis 6 1 0.01 0.0126 1
+GO:2000049 positive regulation of cell-cell adhesio... 6 1 0.01 0.0126 1
+GO:0042420 dopamine catabolic process 6 1 0.01 0.0126 1
+GO:0042421 norepinephrine biosynthetic process 6 1 0.01 0.0126 1
+GO:0045588 positive regulation of gamma-delta T cel... 6 1 0.01 0.0126 1
+GO:0006477 protein sulfation 6 1 0.01 0.0126 1
+GO:0009308 amine metabolic process 71 2 0.15 0.0139 1
+GO:0010642 negative regulation of platelet-derived ... 7 1 0.01 0.0146 1
+GO:0035655 interleukin-18-mediated signaling pathwa... 7 1 0.01 0.0146 1
+GO:0071639 positive regulation of monocyte chemotac... 8 1 0.02 0.0167 1
+GO:0043313 regulation of neutrophil degranulation 8 1 0.02 0.0167 1
+GO:0038110 interleukin-2-mediated signaling pathway 8 1 0.02 0.0167 1
+GO:0045579 positive regulation of B cell differenti... 8 1 0.02 0.0167 1
+GO:0051712 positive regulation of killing of cells ... 8 1 0.02 0.0167 1
+GO:0060907 positive regulation of macrophage cytoki... 8 1 0.02 0.0167 1
+GO:0031915 positive regulation of synaptic plastici... 9 1 0.02 0.0188 1
+GO:0022038 corpus callosum development 9 1 0.02 0.0188 1
+GO:0019371 cyclooxygenase pathway 9 1 0.02 0.0188 1
+GO:0071679 commissural neuron axon guidance 10 1 0.02 0.0209 1
+GO:0019370 leukotriene biosynthetic process 10 1 0.02 0.0209 1
+GO:0038063 collagen-activated tyrosine kinase recep... 11 1 0.02 0.0229 1
+GO:0043306 positive regulation of mast cell degranu... 11 1 0.02 0.0229 1
+GO:0002281 macrophage activation involved in immune... 11 1 0.02 0.0229 1
+GO:0030198 extracellular matrix organization 311 3 0.65 0.0256 1
+GO:2000147 positive regulation of cell motility 336 2 0.71 0.0265 1
+GO:0070372 regulation of ERK1 and ERK2 cascade 186 3 0.39 0.0279 1

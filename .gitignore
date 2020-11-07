@@ -1,0 +1,18 @@
+# RStudio files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user
+
+# MacOS
+.DS_Store
+
+# Idea project files
+.idea/
+
+# gene expression data csv files
+data/*
+
+# R data files
+*.RData

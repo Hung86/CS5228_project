@@ -1,0 +1,51 @@
+GO.ID Term Annotated Significant Expected weightFisher p.adj
+GO:0032836 glomerular basement membrane development 8 2 0.05 0.0012 1
+GO:0006955 immune response 1093 15 7.33 0.0021 1
+GO:0018279 protein N-linked glycosylation via aspar... 11 2 0.07 0.0023 1
+GO:0002523 leukocyte migration involved in inflamma... 17 2 0.11 0.0056 1
+GO:2000329 negative regulation of T-helper 17 cell ... 1 1 0.01 0.0067 1
+GO:1902232 regulation of positive thymic T cell sel... 1 1 0.01 0.0067 1
+GO:0038168 epidermal growth factor receptor signali... 1 1 0.01 0.0067 1
+GO:0060474 positive regulation of flagellated sperm... 1 1 0.01 0.0067 1
+GO:1901537 positive regulation of DNA demethylation 1 1 0.01 0.0067 1
+GO:0043375 CD8-positive, alpha-beta T cell lineage ... 1 1 0.01 0.0067 1
+GO:1904156 DN3 thymocyte differentiation 1 1 0.01 0.0067 1
+GO:0002364 NK T cell lineage commitment 1 1 0.01 0.0067 1
+GO:0009098 leucine biosynthetic process 1 1 0.01 0.0067 1
+GO:0009099 valine biosynthetic process 1 1 0.01 0.0067 1
+GO:0071353 cellular response to interleukin-4 22 2 0.15 0.0094 1
+GO:0046632 alpha-beta T cell differentiation 74 4 0.5 0.0127 1
+GO:0048290 isotype switching to IgA isotypes 2 1 0.01 0.0134 1
+GO:0036345 platelet maturation 2 1 0.01 0.0134 1
+GO:0002522 leukocyte migration involved in immune r... 2 1 0.01 0.0134 1
+GO:0033037 polysaccharide localization 2 1 0.01 0.0134 1
+GO:2000552 negative regulation of T-helper 2 cell c... 2 1 0.01 0.0134 1
+GO:1904153 negative regulation of retrograde protei... 2 1 0.01 0.0134 1
+GO:1904155 DN2 thymocyte differentiation 2 1 0.01 0.0134 1
+GO:0006589 octopamine biosynthetic process 2 1 0.01 0.0134 1
+GO:0002362 CD4-positive, CD25-positive, alpha-beta ... 2 1 0.01 0.0134 1
+GO:0044336 canonical Wnt signaling pathway involved... 2 1 0.01 0.0134 1
+GO:0030538 embryonic genitalia morphogenesis 2 1 0.01 0.0134 1
+GO:0072676 lymphocyte migration 79 4 0.53 0.0190 1
+GO:0002361 CD4-positive, CD25-positive, alpha-beta ... 5 2 0.03 0.0196 1
+GO:0002554 serotonin secretion by platelet 3 1 0.02 0.0200 1
+GO:0070667 negative regulation of mast cell prolife... 3 1 0.02 0.0200 1
+GO:0033153 T cell receptor V(D)J recombination 3 1 0.02 0.0200 1
+GO:0048733 sebaceous gland development 3 1 0.02 0.0200 1
+GO:0010918 positive regulation of mitochondrial mem... 3 1 0.02 0.0200 1
+GO:2000670 positive regulation of dendritic cell ap... 3 1 0.02 0.0200 1
+GO:0048619 embryonic hindgut morphogenesis 3 1 0.02 0.0200 1
+GO:0042127 regulation of cell population proliferat... 1011 8 6.78 0.0257 1
+GO:0009083 branched-chain amino acid catabolic proc... 4 1 0.03 0.0266 1
+GO:0016075 rRNA catabolic process 4 1 0.03 0.0266 1
+GO:0042985 negative regulation of amyloid precursor... 4 1 0.03 0.0266 1
+GO:0001807 regulation of type IV hypersensitivity 4 1 0.03 0.0266 1
+GO:0071287 cellular response to manganese ion 4 1 0.03 0.0266 1
+GO:0061408 positive regulation of transcription fro... 4 1 0.03 0.0266 1
+GO:1905563 negative regulation of vascular endothel... 4 1 0.03 0.0266 1
+GO:1990573 potassium ion import across plasma membr... 39 2 0.26 0.0279 1
+GO:0032024 positive regulation of insulin secretion 42 2 0.28 0.0320 1
+GO:0042355 L-fucose catabolic process 5 1 0.03 0.0331 1
+GO:0038113 interleukin-9-mediated signaling pathway 5 1 0.03 0.0331 1
+GO:2000510 positive regulation of dendritic cell ch... 5 1 0.03 0.0331 1
+GO:0048304 positive regulation of isotype switching... 5 1 0.03 0.0331 1

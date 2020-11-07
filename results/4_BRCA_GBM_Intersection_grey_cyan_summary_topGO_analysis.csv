@@ -1,0 +1,51 @@
+GO.ID Term Annotated Significant Expected weightFisher p.adj
+GO:0090188 negative regulation of pancreatic juice ... 2 1 0 0.0029 1
+GO:0007231 osmosensory signaling pathway 2 1 0 0.0029 1
+GO:0006390 mitochondrial transcription 3 1 0 0.0043 1
+GO:0055059 asymmetric neuroblast division 3 1 0 0.0043 1
+GO:0010694 positive regulation of alkaline phosphat... 4 1 0.01 0.0058 1
+GO:2000741 positive regulation of mesenchymal stem ... 4 1 0.01 0.0058 1
+GO:1903288 positive regulation of potassium ion imp... 5 1 0.01 0.0072 1
+GO:0006355 regulation of transcription, DNA-templat... 1409 6 2.04 0.0103 1
+GO:0060346 bone trabecula formation 10 1 0.01 0.0144 1
+GO:2000651 positive regulation of sodium ion transm... 10 1 0.01 0.0144 1
+GO:0045892 negative regulation of transcription, DN... 577 3 0.84 0.0154 1
+GO:0001919 regulation of receptor recycling 12 1 0.02 0.0172 1
+GO:0010766 negative regulation of sodium ion transp... 13 1 0.02 0.0187 1
+GO:0045672 positive regulation of osteoclast differ... 14 1 0.02 0.0201 1
+GO:0045780 positive regulation of bone resorption 14 1 0.02 0.0201 1
+GO:0001502 cartilage condensation 15 1 0.02 0.0215 1
+GO:0010800 positive regulation of peptidyl-threonin... 15 1 0.02 0.0215 1
+GO:0032332 positive regulation of chondrocyte diffe... 16 1 0.02 0.0229 1
+GO:0006884 cell volume homeostasis 18 1 0.03 0.0258 1
+GO:0030520 intracellular estrogen receptor signalin... 20 1 0.03 0.0286 1
+GO:0048873 homeostasis of number of cells within a ... 20 1 0.03 0.0286 1
+GO:0006325 chromatin organization 196 2 0.28 0.0312 1
+GO:0090279 regulation of calcium ion import 28 1 0.04 0.0398 1
+GO:0035633 maintenance of blood-brain barrier 29 1 0.04 0.0412 1
+GO:0045747 positive regulation of Notch signaling p... 30 1 0.04 0.0426 1
+GO:1903078 positive regulation of protein localizat... 31 1 0.04 0.0440 1
+GO:0043392 negative regulation of DNA binding 34 1 0.05 0.0482 1
+GO:0045944 positive regulation of transcription by ... 647 3 0.94 0.0605 1
+GO:0042327 positive regulation of phosphorylation 642 2 0.93 0.0705 1
+GO:0031016 pancreas development 53 1 0.08 0.0741 1
+GO:0090630 activation of GTPase activity 53 1 0.08 0.0741 1
+GO:0048864 stem cell development 61 1 0.09 0.0849 1
+GO:0120162 positive regulation of cold-induced ther... 64 1 0.09 0.0889 1
+GO:0051591 response to cAMP 69 1 0.1 0.0955 1
+GO:0034614 cellular response to reactive oxygen spe... 84 1 0.12 0.1151 1
+GO:0072659 protein localization to plasma membrane 138 2 0.2 0.1154 1
+GO:0051928 positive regulation of calcium ion trans... 87 1 0.13 0.1190 1
+GO:0051384 response to glucocorticoid 103 1 0.15 0.1395 1
+GO:0009749 response to glucose 106 1 0.15 0.1432 1
+GO:0051604 protein maturation 131 1 0.19 0.1742 1
+GO:0046777 protein autophosphorylation 134 1 0.19 0.1778 1
+GO:0030073 insulin secretion 138 1 0.2 0.1827 1
+GO:0071560 cellular response to transforming growth... 140 1 0.2 0.1851 1
+GO:0051091 positive regulation of DNA-binding trans... 145 1 0.21 0.1911 1
+GO:0044267 cellular protein metabolic process 2098 2 3.04 0.1928 1
+GO:0007015 actin filament organization 245 1 0.35 0.3028 1
+GO:0001503 ossification 273 1 0.4 0.3315 1
+GO:0006886 intracellular protein transport 345 1 0.5 0.4003 1
+GO:0030154 cell differentiation 2380 4 3.44 0.4731 1
+GO:0000122 negative regulation of transcription by ... 437 1 0.63 0.4789 1
