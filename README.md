@@ -10,12 +10,14 @@ TRAN KHANH HUNG – A0212253W
 
 - WGCNA
 
-Weighted gene correlation network analysis (WGCNA) is a powerful method that uses a topological overlap module approach for constructing co-expression networks based on gene expression data. This method involves reconstructing gene co-expression modules and summarizing modules using module eigengenes (ME) and intramodular hub genes.
+Weighted gene correlation network analysis (WGCNA) is a powerful method that uses a topological overlap module approach 
+for constructing co-expression networks based on gene expression data. This method involves reconstructing 
+gene co-expression modules and summarizing modules using module eigengenes (ME) and intramodular hub genes.
 
 - Gene Enrichment and Pathway Analysis
 
-Biologically interesting modules were identified using Fisher's exact test. The overlapping and union sets of genes from theses interesting gene module pairs were 
-subjected to Gene Set Enrichment Analysis using topGO package).
+Biologically interesting modules were identified using Fisher's exact test. The overlapping and union sets of 
+genes from theses interesting gene module pairs were subjected to Gene Set Enrichment Analysis using topGO package).
 
 ## Dataset
 
@@ -35,22 +37,31 @@ https://tcga.xenahubs.net/download/TCGA.BRCA.sampleMap/HiSeqV2_PANCAN.gz
 
 ###  Data Exploration 
 
+Description     |     BRCA      |  GBM      | OV
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+Filter threshold (CV) | 0.5 | 0.5 | 0.5
+Sample Clustering Dendrogram |  ![](results/1_Sample_Clustering_BRCA.png)  |  ![](results/1_Sample_Clustering_GBM.png) |  ![](results/1_Sample_Clustering_OV.png)
+deepSplit | 3 | 3 | 3
+minClusterSize | 30 | 30 | 30
+Number of gene modules | 19 | 19 | 20
+
+<br/><br/>
+
 Scale Free Topology Model       |  Mean Connectivity      | Selected Soft Threshold
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](results/2_SFTM_Fit_GBM.png)  |  ![](results/2_Mean_Connectivity_GBM.png) | 9
-![](results/2_SFTM_Fit_OV.png)  |  ![](results/2_Mean_Connectivity_OV.png) | 6
-![](results/2_SFTM_Fit_BRCA.png)  |  ![](results/2_Mean_Connectivity_BRCA.png) | 12
+![](results/2_SFTM_Fit_OV.png)  |  ![](results/2_Mean_Connectivity_OV.png) | 3
+![](results/2_SFTM_Fit_BRCA.png)  |  ![](results/2_Mean_Connectivity_BRCA.png) | 6
 
 
 ### Clustering Tree
 
-![GBM](results/2_Clustering_Tree_GBM.png)
-<br/><br/>
+Genes       |      Module Eigengenes
+:-------------------------:|:-------------------------:
+![GBM](results/2_Clustering_Tree_Genes_GBM.png) | ![GBM](results/2_Clustering_Tree_ME_GBM.png)
+![GBM](results/2_Clustering_Tree_Genes_OV.png) | ![GBM](results/2_Clustering_Tree_ME_OV.png)
+![GBM](results/2_Clustering_Tree_Genes_BRCA.png) | ![GBM](results/2_Clustering_Tree_ME_BRCA.png)
 
-![GBM](results/2_Clustering_Tree_OV.png)
-<br/><br/>
-
-![GBM](results/2_Clustering_Tree_BRCA.png)
 <br/><br/>
 
 ### Gene Expression Network
@@ -62,25 +73,38 @@ Network Heatmap       |      Eigengene Adjacency Heatmap      |      Eigengene D
 ![](results/3_Network_heatmap_BRCA.png) |  ![](results/3_Eigengene_heatmap_BRCA.png) |  ![](results/3_Eigengene_dendrogram_BRCA.png)
 
 
-### Overlapping Genes in Gene Modules
+### Pairwise Analysis of Gene Modules
+
+## Overview
 
 Item                     | BRCA and GBM               |  GBM and OV               | OV and BRCA
 :-----------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 |||
 --- Intersection --- |||
-Name | [grey_cyan_genes.txt](results/4_BRCA_GBM_Intersection_P0.999999996738616_grey_cyan_genes.txt) | [lightcyan_brown_genes.txt](results/4_GBM_OV_Intersection_P0.999999978350642_lightcyan_brown_genes.txt) | [grey_black_genes.txt](results/4_OV_BRCA_Intersection_P0.999999999999291_grey_black_genes.txt) 
-Gene module pair with highest p-value | 0.999999996738616 | 0.999999978350642 | 0.999999999999291
-Gene count in top module pair | 14 | 11 | 35
-topGO plot | [grey_cyan_topGO.pdf](results/4_BRCA_GBM_Intersection_grey_cyan_topGOPlot_fullnames.pdf) | [lightcyan_brown_topGO.pdf](results/4_GBM_OV_Intersection_lightcyan_brown_topGOPlot_fullnames.pdf) | [grey_black_topGO.pdf](results/4_OV_BRCA_Intersection_grey_black_topGOPlot_fullnames.pdf)
-topGO analysis | [grey_cyan_topGO.csv](results/4_BRCA_GBM_Intersection_grey_cyan_summary_topGO_analysis.csv) | [lightcyan_brown_topGO.csv](results/4_GBM_OV_Intersection_lightcyan_brown_summary_topGO_analysis.csv) | [grey_black_topGO.csv](results/4_OV_BRCA_Intersection_grey_black_summary_topGO_analysis.csv)
+Name | [black_darkred_genes.txt](results/4_BRCA_GBM_lowP_Intersection_P0_11-6_black_darkred_genes.txt) | [black_brown_genes.txt](results/4_GBM_OV_lowP_Intersection_P0_13-3_black_brown_genes.txt) | [turquoise_black_genes.txt](results/4_OV_BRCA_lowP_Intersection_P0_14-11_turquoise_black_genes.txt) 
+Lowest p-value | 0 | 0 | 0
 |||
 |||
---- Union --- |||
-Name | [grey_cyan_txt](results/4_BRCA_GBM_Union_P0.999999996738616_grey_cyan_genes.txt) | [lightcyan_brown_genes.txt](results/4_GBM_OV_Union_P0.999999978350642_lightcyan_brown_genes.txt) | [grey_black_genes.txt](results/4_OV_BRCA_Union_P0.999999999999291_grey_black_genes.txt)
-Gene module pair with highest p-value | 0.999999996738616 | 0.999999978350642 | 0.999999999999291
-Gene count in top module pair | 6066 | 1949 | 3262
-topGO plot | [grey_cyan_topGP.pdf](results/4_BRCA_GBM_Union_grey_cyan_topGOPlot_fullnames.pdf) | [lightcyan_brown_topGO.pdf](results/4_GBM_OV_Union_lightcyan_brown_topGOPlot_fullnames.pdf) | [grey_black_topGO.pdf](results/4_OV_BRCA_Union_grey_black_topGOPlot_fullnames.pdf)
-topGO analysis | [grey_cyan_topGO.csv](results/4_BRCA_GBM_Union_grey_cyan_summary_topGO_analysis.csv) | [lightcyan_brown_topGO.csv](results/4_GBM_OV_Union_lightcyan_brown_summary_topGO_analysis.csv) | [grey_black_topGO.csv](results/4_OV_BRCA_Union_grey_black_summary_topGO_analysis.csv)
+--- Unique (A) --- |||
+Name | [black_genes.txt](results/4_BRCA_GBM_lowP_UniqueA_P0_11-6_black_genes.txt) | [black_genes.txt](results/4_GBM_OV_lowP_UniqueA_P0_13-3_black_genes.txt) | [turquoise_genes.txt](results/4_OV_BRCA_lowP_UniqueA_P0_14-11_turquoise_genes.txt)
+Lowest p-value | 0 | 0 | 0
+|||
+|||
+--- Unique (B) --- |||
+Name | [darkred_genes.txt](results/4_BRCA_GBM_lowP_UniqueB_P0_11-6_darkred_genes.txt) | [brown_genes.txt](results/4_GBM_OV_lowP_UniqueB_P0_13-3_brown_genes.txt) | [black_genes.txt](results/4_OV_BRCA_lowP_UniqueB_P0_14-11_black_genes.txt)
+Lowest p-value | 0 | 0 | 0
+
+<br/><br/>
+
+
+## Gene Overlap Across Module Pairs
+
+BRCA and GBM               |  GBM and OV               | OV and BRCA
+:-------------------------:|:-------------------------:|:-------------------------:
+![BRCA_GBM](results/5_BRCA_GBM_heatmap_gene_module_pairs.png)  |  ![GBM_OV](results/5_GBM_OV_heatmap_gene_module_pairs.png) |  ![OV_BRCA](results/5_OV_BRCA_heatmap_gene_module_pairs.png)
+![BRCA_GBM](results/4_Venn_Diagram_BRCA_GBM_lowP0_Gene_Overlap_Modules_black_darkred.png)  |  ![GBM_OV](results/4_Venn_Diagram_GBM_OV_lowP0_Gene_Overlap_Modules_black_brown.png) |  ![OV_BRCA](results/4_Venn_Diagram_OV_BRCA_lowP0_Gene_Overlap_Modules_turquoise_black.png)
+
+<br/><br/>
 
 
 ## Project Structure and Run Instructions

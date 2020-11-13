@@ -93,7 +93,7 @@ gbmPatientTree = hclust(dist(gbmExpr), method = "average")
 png(file = "./results/1_Sample_Clustering_GBM.png", width = 1400, height = 1500);
 par(cex = 1.0);
 par(mar = c(1,1,1,1))
-plot(gbmPatientTree , main = "GBM patient clustering", 
+plot(gbmPatientTree , main = "Sample Clustering - GBM",
 		sub="", xlab="", cex.lab = 1.5,cex.axis = 1.5, cex.main = 2)
 dev.off()
 
@@ -102,7 +102,7 @@ sizeGrWindow(14,10)
 png(file = "./results/1_Sample_Clustering_OV.png", width = 1400, height = 1500);
 par(cex = 1.0);
 par(mar = c(1,1,1,1))
-plot(ovPatientTree , main = "OV patient clustering", 
+plot(ovPatientTree , main = "Sample Clustering - OV",
 		sub="", xlab="", cex.lab = 1.5,cex.axis = 1.5, cex.main = 2)
 dev.off()
 
@@ -112,12 +112,12 @@ sizeGrWindow(14,10)
 png(file = "./results/1_Sample_Clustering_BRCA.png", width = 1400, height = 1500);
 par(cex = 1.0);
 par(mar = c(1,1,1,1))
-plot(brcaPatientTree , main = "BRCA patient clustering", 
+plot(brcaPatientTree , main = "Sample Clustering - BRCA",
 		sub="", xlab="", cex.lab = 1.5,cex.axis = 1.5, cex.main = 2)
 dev.off()
 
 
-save(gbmExpr, ovExpr, brcaExpr, file = "./Routput/1-dataInput.RData")
+save(gbmExpr, ovExpr, brcaExpr, file = "./Routput/1_dataInput.RData")
 
 collectGarbage()
 
