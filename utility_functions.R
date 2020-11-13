@@ -33,6 +33,9 @@ findGeneOverlap <- function(dataset1, dataset2, moduleColors1, moduleColors2, ME
 	unionListGeneList <- list()
 	positionGeneList <- list()
 	modulePairList <- list()
+	uniqueGeneAList <- list()
+	uniqueGeneBList  <- list()
+
 	idx = 1
 	for (m1 in modNames1 )
 	{
@@ -47,27 +50,77 @@ findGeneOverlap <- function(dataset1, dataset2, moduleColors1, moduleColors2, ME
 			
 			if (getContbl(go.obj)[4][1] > 0)
 			{	
-					
 					modulePairList[idx] <- list(c(m1,m2)) 
 					positionGeneList[idx] <- list(c(getPval(go.obj), idx))
-					intersectionGeneList[idx]  <- list(getIntersection(go.obj))
+					intersectionGenes = getIntersection(go.obj)
+					intersectionGeneList[idx]  <- list(intersectionGenes)
+					uniqueGeneAList[idx]<- list(geneNames1[which(!geneNames1 %in% intersectionGenes )])
+					uniqueGeneBList[idx] <- list(geneNames2[which(!geneNames2 %in% intersectionGenes )])
 					unionListGeneList[idx] <- list(getUnion(go.obj))
 					idx = idx+1
 			}
 		}
 	}
-	return (list(intersectionList=intersectionGeneList,
+	return (list(uniqueGeneAList = uniqueGeneAList,
+			 uniqueGeneBList = uniqueGeneBList,
+			 intersectionList=intersectionGeneList,
 			 unionList=unionListGeneList,
 			 positionList=positionGeneList,
 			 modulePairList=modulePairList))
 }
 
 
+geneOverlap_VennDiagram <- function(dir, set_name1, set_name2, geneOverlapOjb, high_pvalue = TRUE){
+	positionGeneList = geneOverlapOjb$positionList
+	uniqueGeneAList = geneOverlapOjb$uniqueGeneAList 
+	uniqueGeneBList = geneOverlapOjb$uniqueGeneBList 
+	intersectionGeneList = geneOverlapOjb$intersectionList
+	modulePairList = geneOverlapOjb$modulePairList
+	
+	geneOverlapOrder = NULL
+	pName = NULL
+	if (high_pvalue) {
+		pName = "highP"
+		geneOverlapOrder = positionGeneList[order(sapply(positionGeneList, function(x) x[1], simplify=TRUE), decreasing=TRUE)][0:3]
+	} else {
+		geneOverlapOrder = positionGeneList[order(sapply(positionGeneList, function(x) x[1], simplify=TRUE), decreasing=FALSE)][0:3]
+		pName = "lowP"
+	}
+	
+	all_venn_pairs <- list()
+	for (v in geneOverlapOrder)
+	{
+		pValue = v[[1]]
+		idx = v[[2]]
+		module_labels = modulePairList[[idx]] 
+		geneA = c(uniqueGeneAList[[idx]], intersectionGeneList[[idx]] )
+		geneB = c(uniqueGeneBList[[idx]], intersectionGeneList[[idx]] )
+		candidate_list = intersectionGeneList[[idx]]
+		set1 = paste(module_labels[[1]], "(",set_name1,")",sep="")
+		set2 = paste(module_labels[[2]], "(",set_name2,")",sep="")
+		venn_pairs <- list()
+		venn_pairs[[set1]] = geneA 
+		venn_pairs[[set2]] = geneB
+		all_venn_pairs[[set1]] = geneA 
+		all_venn_pairs[[set2]] = geneB
+
+		#file = paste(dir, set_name1, "_", set_name2,"_",pName,pValue,"_Gene_Overlap_Modules_Venn_Diagram", module_labels[[1]], "_",module_labels[[1]],".png",sep="")
+		png(file = paste(dir, "4_Venn_Diagram_",set_name1, "_", set_name2,"_",pName,pValue,"_Gene_Overlap_Modules_", module_labels[[1]], "_",module_labels[[1]],".png",sep=""))
+		venn(venn_pairs, ilab=TRUE, zcolor = "style", plotsize = 15, ilcs = 1, sncs = 1, borders = TRUE)
+		dev.off()
+	}
+	png(file = paste(dir,  "4_Venn_Diagram_", set_name1, "_", set_name2, "_top3_",pName,"_Gene_Overlap_Modules.png",sep=""))
+	venn(all_venn_pairs, ilab=TRUE, zcolor = "style", plotsize = 15, ilcs = 1, sncs = 1, borders = TRUE)
+	dev.off()
+}
+
 
 geneOverlap_ToFile <- function(prefix, geneOverlapOjb, high_pvalue = TRUE){
 	positionGeneList = geneOverlapOjb$positionList
 	modulePairList = geneOverlapOjb$modulePairList
 	unionListGeneList = geneOverlapOjb$unionList
+	uniqueGeneAList = geneOverlapOjb$uniqueGeneAList 
+	uniqueGeneBList = geneOverlapOjb$uniqueGeneBList
 	intersectionGeneList = geneOverlapOjb$intersectionList
 	geneOverlapOrder = NULL
 	
@@ -102,7 +155,26 @@ geneOverlap_ToFile <- function(prefix, geneOverlapOjb, high_pvalue = TRUE){
 		}
 		lapply(candidate_list, write, fileName, append=TRUE, ncolumns=30000)
 	}
-
+	
+	for (v in geneOverlapOrder)
+	{
+		pValue = v[[1]]
+		idx = v[[2]]
+		module_labels = modulePairList[[idx]] 
+		
+		fileNameA = paste(prefix, "_UniqueA_P",pValue, "_" , module_labels[[1]], "_genes.txt", sep="")
+		fileNameB = paste(prefix, "_UniqueB_P",pValue, "_" , module_labels[[2]], "_genes.txt", sep="")
+		
+		if (file.exists(fileNameA)) {
+			file.remove(fileNameA)
+		}
+		lapply(uniqueGeneAList[[idx]], write, fileNameA, append=TRUE, ncolumns=30000)
+		
+		if (file.exists(fileNameB)) {
+			file.remove(fileNameB)
+		}
+		lapply(uniqueGeneBList[[idx]], write, fileNameB, append=TRUE, ncolumns=30000)
+	}
 }
 
 
