@@ -26,3 +26,9 @@ BiocManager::install("edgeR")
 
 # Test two sets of gene lists - https://www.bioconductor.org/packages/release/bioc/html/GeneOverlap.html
 BiocManager::install("GeneOverlap")
+
+BiocManager::install("venn")
+
+BiocManager::install("reshape2")
+
+BiocManager::install("ggplot2")

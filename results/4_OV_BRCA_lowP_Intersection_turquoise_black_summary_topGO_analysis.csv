@@ -1,0 +1,51 @@
+GO.ID Term Annotated Significant Expected weightFisher p.adj
+GO:0045087 innate immune response 477 193 46.14 9.9e-29 0
+GO:0006954 inflammatory response 510 172 49.33 6.8e-27 0
+GO:0006955 immune response 1093 424 105.72 9.6e-27 0
+GO:0050852 T cell receptor signaling pathway 92 49 8.9 8.7e-23 0
+GO:0032729 positive regulation of interferon-gamma ... 51 32 4.93 1.5e-20 0
+GO:0042102 positive regulation of T cell proliferat... 80 51 7.74 1.7e-19 0
+GO:0050776 regulation of immune response 507 229 49.04 3.1e-19 0
+GO:0070098 chemokine-mediated signaling pathway 69 36 6.67 1.5e-18 0
+GO:0006968 cellular defense response 41 26 3.97 4.3e-17 0
+GO:0031295 T cell costimulation 42 25 4.06 8.1e-16 0
+GO:0030593 neutrophil chemotaxis 78 38 7.54 6.1e-15 0
+GO:0001916 positive regulation of T cell mediated c... 16 15 1.55 7.8e-15 0
+GO:0050853 B cell receptor signaling pathway 40 30 3.87 2.7e-14 0
+GO:0070374 positive regulation of ERK1 and ERK2 cas... 132 43 12.77 2.0e-13 0
+GO:0060333 interferon-gamma-mediated signaling path... 65 28 6.29 2.1e-13 0
+GO:0071346 cellular response to interferon-gamma 129 56 12.48 4.3e-13 0
+GO:0006959 humoral immune response 144 53 13.93 7.2e-12 0
+GO:0071222 cellular response to lipopolysaccharide 122 51 11.8 2.0e-11 0
+GO:0050830 defense response to Gram-positive bacter... 50 23 4.84 2.9e-11 0
+GO:0032695 negative regulation of interleukin-12 pr... 14 12 1.35 4.7e-11 0
+GO:0042742 defense response to bacterium 138 50 13.35 1.8e-10 0
+GO:0002548 monocyte chemotaxis 52 27 5.03 1.9e-10 0
+GO:0033209 tumor necrosis factor-mediated signaling... 82 30 7.93 4.2e-10 0
+GO:0032755 positive regulation of interleukin-6 pro... 66 25 6.38 6.6e-10 0
+GO:0019886 antigen processing and presentation of e... 40 19 3.87 7.9e-10 0
+GO:0031663 lipopolysaccharide-mediated signaling pa... 35 20 3.39 2.2e-09 0
+GO:0050766 positive regulation of phagocytosis 48 24 4.64 6.0e-09 0
+GO:0071347 cellular response to interleukin-1 88 29 8.51 6.1e-09 0
+GO:0032731 positive regulation of interleukin-1 bet... 37 17 3.58 1.2e-08 0
+GO:0032743 positive regulation of interleukin-2 pro... 22 13 2.13 1.3e-08 0
+GO:0030889 negative regulation of B cell proliferat... 13 10 1.26 1.5e-08 0
+GO:0045954 positive regulation of natural killer ce... 15 13 1.45 3.1e-08 0
+GO:0002479 antigen processing and presentation of e... 27 14 2.61 3.4e-08 0
+GO:0032733 positive regulation of interleukin-10 pr... 31 15 3 3.6e-08 0
+GO:0048247 lymphocyte chemotaxis 46 29 4.45 3.7e-08 0
+GO:0032760 positive regulation of tumor necrosis fa... 64 28 6.19 5.2e-08 0
+GO:0051092 positive regulation of NF-kappaB transcr... 86 26 8.32 7.0e-08 0
+GO:0042832 defense response to protozoan 21 12 2.03 7.9e-08 0
+GO:0007267 cell-cell signaling 1152 122 111.43 9.3e-08 0
+GO:0016032 viral process 338 71 32.69 1.7e-07 1e-04
+GO:0038096 Fc-gamma receptor signaling pathway invo... 31 15 3 1.8e-07 1e-04
+GO:0043547 positive regulation of GTPase activity 223 45 21.57 1.9e-07 1e-04
+GO:0007166 cell surface receptor signaling pathway 1788 325 172.94 1.9e-07 1e-04
+GO:0032753 positive regulation of interleukin-4 pro... 23 12 2.22 3.0e-07 1e-04
+GO:0007186 G protein-coupled receptor signaling pat... 652 90 63.06 3.0e-07 1e-04
+GO:0032693 negative regulation of interleukin-10 pr... 16 10 1.55 3.2e-07 1e-04
+GO:0045580 regulation of T cell differentiation 103 51 9.96 4.0e-07 1e-04
+GO:0032715 negative regulation of interleukin-6 pro... 32 14 3.1 5.0e-07 1e-04
+GO:0002407 dendritic cell chemotaxis 19 14 1.84 8.8e-07 3e-04
+GO:0045060 negative thymic T cell selection 11 8 1.06 9.4e-07 3e-04

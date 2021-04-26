@@ -1,0 +1,51 @@
+GO.ID Term Annotated Significant Expected weightFisher p.adj
+GO:0003341 cilium movement 50 29 0.74 2.4e-19 0
+GO:0036158 outer dynein arm assembly 12 9 0.18 5.5e-15 0
+GO:0030317 flagellated sperm motility 54 17 0.8 6.8e-15 0
+GO:0036159 inner dynein arm assembly 9 7 0.13 4.7e-12 0
+GO:0003351 epithelial cilium movement involved in e... 23 11 0.34 1.1e-08 0
+GO:0060285 cilium-dependent cell motility 67 25 1 3.1e-08 1e-04
+GO:0060287 epithelial cilium movement involved in d... 8 5 0.12 3.6e-08 1e-04
+GO:0003356 regulation of cilium beat frequency 6 5 0.09 4.5e-08 1e-04
+GO:0007368 determination of left/right symmetry 77 13 1.15 8.7e-08 1e-04
+GO:0035082 axoneme assembly 41 28 0.61 1.6e-07 2e-04
+GO:0060271 cilium assembly 148 41 2.2 7.9e-07 0.001
+GO:0070286 axonemal dynein complex assembly 21 17 0.31 2.2e-06 0.0026
+GO:0044458 motile cilium assembly 9 5 0.13 3.0e-06 0.0032
+GO:1904158 axonemal central apparatus assembly 3 3 0.04 3.2e-06 0.0032
+GO:0007283 spermatogenesis 238 20 3.54 4.0e-06 0.0037
+GO:0060294 cilium movement involved in cell motilit... 12 5 0.18 8.8e-06 0.0077
+GO:0007288 sperm axoneme assembly 6 3 0.09 6.2e-05 0.0509
+GO:0042073 intraciliary transport 15 4 0.22 0.00010 0.0776
+GO:0021591 ventricular system development 17 4 0.25 0.00025 0.1837
+GO:0007018 microtubule-based movement 137 37 2.04 0.00030 0.2094
+GO:1902412 regulation of mitotic cytokinesis 4 2 0.06 0.00129 0.8186
+GO:0035469 determination of pancreatic left/right a... 4 2 0.06 0.00129 0.8186
+GO:0071910 determination of liver left/right asymme... 5 2 0.07 0.00213 1
+GO:0071907 determination of digestive tract left/ri... 6 2 0.09 0.00316 1
+GO:0030030 cell projection organization 891 46 13.25 0.00753 1
+GO:1902017 regulation of cilium assembly 20 5 0.3 0.00868 1
+GO:0001578 microtubule bundle formation 57 30 0.85 0.01354 1
+GO:1905505 positive regulation of motile cilium ass... 1 1 0.01 0.01487 1
+GO:0120197 mucociliary clearance 1 1 0.01 0.01487 1
+GO:1905188 positive regulation of metaphase/anaphas... 1 1 0.01 0.01487 1
+GO:0000492 box C/D snoRNP assembly 1 1 0.01 0.01487 1
+GO:1901318 negative regulation of flagellated sperm... 1 1 0.01 0.01487 1
+GO:1904825 protein localization to microtubule plus... 1 1 0.01 0.01487 1
+GO:1903625 negative regulation of DNA catabolic pro... 1 1 0.01 0.01487 1
+GO:1903629 positive regulation of dUTP diphosphatas... 1 1 0.01 0.01487 1
+GO:1903611 negative regulation of calcium-dependent... 1 1 0.01 0.01487 1
+GO:1903634 negative regulation of leucine-tRNA liga... 1 1 0.01 0.01487 1
+GO:0120221 maintenance of ciliary planar beating mo... 1 1 0.01 0.01487 1
+GO:0002635 negative regulation of germinal center f... 1 1 0.01 0.01487 1
+GO:1902856 negative regulation of non-motile cilium... 1 1 0.01 0.01487 1
+GO:0003400 regulation of COPII vesicle coating 1 1 0.01 0.01487 1
+GO:0061966 establishment of left/right asymmetry 1 1 0.01 0.01487 1
+GO:1901248 positive regulation of lung ciliated cel... 1 1 0.01 0.01487 1
+GO:0002897 positive regulation of central B cell to... 1 1 0.01 0.01487 1
+GO:0016598 protein arginylation 1 1 0.01 0.01487 1
+GO:0019853 L-ascorbic acid biosynthetic process 1 1 0.01 0.01487 1
+GO:0072016 glomerular parietal epithelial cell deve... 1 1 0.01 0.01487 1
+GO:0007286 spermatid development 66 8 0.98 0.01778 1
+GO:0007052 mitotic spindle organization 49 3 0.73 0.02276 1
+GO:0003352 regulation of cilium movement 9 7 0.13 0.02799 1

@@ -1,0 +1,51 @@
+GO.ID Term Annotated Significant Expected weightFisher p.adj
+GO:0070098 chemokine-mediated signaling pathway 69 56 23.55 2.5e-17 0
+GO:0006954 inflammatory response 510 301 174.09 2.4e-16 0
+GO:0050852 T cell receptor signaling pathway 92 70 31.41 4.1e-16 0
+GO:0032729 positive regulation of interferon-gamma ... 51 45 17.41 1.2e-15 0
+GO:0043312 neutrophil degranulation 243 144 82.95 1.4e-15 0
+GO:0030593 neutrophil chemotaxis 78 62 26.63 8.9e-14 0
+GO:0045087 innate immune response 477 291 162.83 3.0e-13 0
+GO:0006968 cellular defense response 41 36 14 3.5e-12 0
+GO:0042102 positive regulation of T cell proliferat... 80 63 27.31 5.4e-11 0
+GO:0006955 immune response 1093 670 373.11 7.7e-10 0
+GO:0070374 positive regulation of ERK1 and ERK2 cas... 132 78 45.06 3.2e-09 0
+GO:0050853 B cell receptor signaling pathway 40 36 13.65 6.0e-09 0
+GO:0031295 T cell costimulation 42 32 14.34 1.8e-08 0
+GO:0060333 interferon-gamma-mediated signaling path... 65 44 22.19 2.4e-08 0
+GO:0006959 humoral immune response 144 86 49.16 3.2e-08 0
+GO:0071222 cellular response to lipopolysaccharide 122 81 41.65 6.5e-08 1e-04
+GO:0001916 positive regulation of T cell mediated c... 16 16 5.46 9.7e-08 1e-04
+GO:0050776 regulation of immune response 507 332 173.07 1.9e-07 1e-04
+GO:0007267 cell-cell signaling 1152 435 393.25 3.0e-07 2e-04
+GO:0031663 lipopolysaccharide-mediated signaling pa... 35 27 11.95 3.2e-07 2e-04
+GO:0033209 tumor necrosis factor-mediated signaling... 82 50 27.99 4.8e-07 3e-04
+GO:0032755 positive regulation of interleukin-6 pro... 66 42 22.53 8.6e-07 5e-04
+GO:0032733 positive regulation of interleukin-10 pr... 31 24 10.58 9.8e-07 6e-04
+GO:0042832 defense response to protozoan 21 18 7.17 1.6e-06 9e-04
+GO:0050766 positive regulation of phagocytosis 48 35 16.39 2.2e-06 0.0012
+GO:0032715 negative regulation of interleukin-6 pro... 32 24 10.92 2.7e-06 0.0014
+GO:0002548 monocyte chemotaxis 52 35 17.75 2.9e-06 0.0015
+GO:0032735 positive regulation of interleukin-12 pr... 25 20 8.53 3.3e-06 0.0016
+GO:0002479 antigen processing and presentation of e... 27 21 9.22 4.2e-06 0.002
+GO:0048247 lymphocyte chemotaxis 46 39 15.7 5.7e-06 0.0027
+GO:0006882 cellular zinc ion homeostasis 21 19 7.17 6.0e-06 0.0027
+GO:0071346 cellular response to interferon-gamma 129 83 44.04 7.8e-06 0.0034
+GO:0032695 negative regulation of interleukin-12 pr... 14 13 4.78 8.0e-06 0.0034
+GO:0071347 cellular response to interleukin-1 88 51 30.04 1.1e-05 0.0045
+GO:0030890 positive regulation of B cell proliferat... 28 21 9.56 1.2e-05 0.0048
+GO:0038096 Fc-gamma receptor signaling pathway invo... 31 23 10.58 1.3e-05 0.005
+GO:0050830 defense response to Gram-positive bacter... 50 32 17.07 1.5e-05 0.0057
+GO:0007186 G protein-coupled receptor signaling pat... 652 286 222.57 1.7e-05 0.0062
+GO:0042742 defense response to bacterium 138 82 47.11 2.0e-05 0.0072
+GO:0030889 negative regulation of B cell proliferat... 13 12 4.44 2.2e-05 0.0077
+GO:0032757 positive regulation of interleukin-8 pro... 37 25 12.63 3.3e-05 0.011
+GO:0032731 positive regulation of interleukin-1 bet... 37 25 12.63 3.3e-05 0.011
+GO:0071356 cellular response to tumor necrosis fact... 165 96 56.32 4.1e-05 0.0133
+GO:0050850 positive regulation of calcium-mediated ... 26 16 8.88 6.0e-05 0.0184
+GO:0050690 regulation of defense response to virus ... 12 11 4.1 6.0e-05 0.0184
+GO:0002755 MyD88-dependent toll-like receptor signa... 21 17 7.17 6.1e-05 0.0184
+GO:0010273 detoxification of copper ion 9 9 3.07 6.2e-05 0.0184
+GO:0038095 Fc-epsilon receptor signaling pathway 34 23 11.61 6.6e-05 0.0192
+GO:0009617 response to bacterium 378 216 129.03 8.1e-05 0.0231
+GO:0032753 positive regulation of interleukin-4 pro... 23 17 7.85 0.00011 0.0307

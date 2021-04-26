@@ -1,0 +1,51 @@
+GO.ID Term Annotated Significant Expected weightFisher p.adj
+GO:0061737 leukotriene signaling pathway 5 2 0.07 0.0020 1
+GO:0035864 response to potassium ion 7 2 0.1 0.0041 1
+GO:0010459 negative regulation of heart rate 8 2 0.11 0.0054 1
+GO:0090630 activation of GTPase activity 53 4 0.76 0.0068 1
+GO:0070269 pyroptosis 9 2 0.13 0.0069 1
+GO:0007030 Golgi organization 29 3 0.42 0.0080 1
+GO:0007635 chemosensory behavior 11 2 0.16 0.0103 1
+GO:0098719 sodium ion import across plasma membrane 11 2 0.16 0.0103 1
+GO:0035499 carnosine biosynthetic process 1 1 0.01 0.0143 1
+GO:0018885 carbon tetrachloride metabolic process 1 1 0.01 0.0143 1
+GO:0042197 halogenated hydrocarbon metabolic proces... 1 1 0.01 0.0143 1
+GO:0019452 L-cysteine catabolic process to taurine 1 1 0.01 0.0143 1
+GO:0019449 L-cysteine catabolic process to hypotaur... 1 1 0.01 0.0143 1
+GO:1903954 positive regulation of voltage-gated pot... 1 1 0.01 0.0143 1
+GO:1904456 negative regulation of neuronal action p... 1 1 0.01 0.0143 1
+GO:1904472 positive regulation of endothelin secret... 1 1 0.01 0.0143 1
+GO:0042218 1-aminocyclopropane-1-carboxylate biosyn... 1 1 0.01 0.0143 1
+GO:0014853 regulation of excitatory postsynaptic me... 1 1 0.01 0.0143 1
+GO:0046338 phosphatidylethanolamine catabolic proce... 1 1 0.01 0.0143 1
+GO:1900480 regulation of diacylglycerol biosyntheti... 1 1 0.01 0.0143 1
+GO:0039689 negative stranded viral RNA replication 1 1 0.01 0.0143 1
+GO:0060454 positive regulation of gastric acid secr... 1 1 0.01 0.0143 1
+GO:0018960 4-nitrophenol metabolic process 1 1 0.01 0.0143 1
+GO:0018910 benzene metabolic process 1 1 0.01 0.0143 1
+GO:1904597 negative regulation of connective tissue... 1 1 0.01 0.0143 1
+GO:1901594 response to capsazepine 1 1 0.01 0.0143 1
+GO:0006298 mismatch repair 14 2 0.2 0.0166 1
+GO:0061621 canonical glycolysis 14 2 0.2 0.0166 1
+GO:0036151 phosphatidylcholine acyl-chain remodelin... 14 2 0.2 0.0166 1
+GO:0001580 detection of chemical stimulus involved ... 15 2 0.22 0.0190 1
+GO:0003341 cilium movement 50 3 0.72 0.0239 1
+GO:0050954 sensory perception of mechanical stimulu... 120 3 1.72 0.0284 1
+GO:0042412 taurine biosynthetic process 2 1 0.03 0.0285 1
+GO:0032053 ciliary basal body organization 2 1 0.03 0.0285 1
+GO:0032049 cardiolipin biosynthetic process 2 1 0.03 0.0285 1
+GO:0033169 histone H3-K9 demethylation 2 1 0.03 0.0285 1
+GO:0060763 mammary duct terminal end bud growth 2 1 0.03 0.0285 1
+GO:0032889 regulation of vacuole fusion, non-autoph... 2 1 0.03 0.0285 1
+GO:1903762 positive regulation of voltage-gated pot... 2 1 0.03 0.0285 1
+GO:0090110 COPII-coated vesicle cargo loading 2 1 0.03 0.0285 1
+GO:1900453 negative regulation of long-term synapti... 2 1 0.03 0.0285 1
+GO:0001507 acetylcholine catabolic process in synap... 2 1 0.03 0.0285 1
+GO:1901207 regulation of heart looping 2 1 0.03 0.0285 1
+GO:1903566 positive regulation of protein localizat... 2 1 0.03 0.0285 1
+GO:0090212 negative regulation of establishment of ... 2 1 0.03 0.0285 1
+GO:0050960 detection of temperature stimulus involv... 2 1 0.03 0.0285 1
+GO:0050968 detection of chemical stimulus involved ... 2 1 0.03 0.0285 1
+GO:1990637 response to prolactin 2 1 0.03 0.0285 1
+GO:0097053 L-kynurenine catabolic process 2 1 0.03 0.0285 1
+GO:0018094 protein polyglycylation 2 1 0.03 0.0285 1

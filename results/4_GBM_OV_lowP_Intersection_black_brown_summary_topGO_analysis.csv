@@ -1,0 +1,51 @@
+GO.ID Term Annotated Significant Expected weightFisher p.adj
+GO:0001580 detection of chemical stimulus involved ... 15 5 0.32 1.1e-05 0.1536
+GO:0007030 Golgi organization 29 4 0.63 0.0033 1
+GO:0061737 leukotriene signaling pathway 5 2 0.11 0.0044 1
+GO:0032099 negative regulation of appetite 6 2 0.13 0.0066 1
+GO:0035864 response to potassium ion 7 2 0.15 0.0091 1
+GO:0010459 negative regulation of heart rate 8 2 0.17 0.0119 1
+GO:0002024 diet induced thermogenesis 8 2 0.17 0.0119 1
+GO:0008202 steroid metabolic process 169 5 3.65 0.0146 1
+GO:0070269 pyroptosis 9 2 0.19 0.0151 1
+GO:0030317 flagellated sperm motility 54 5 1.17 0.0191 1
+GO:1901594 response to capsazepine 1 1 0.02 0.0216 1
+GO:0014853 regulation of excitatory postsynaptic me... 1 1 0.02 0.0216 1
+GO:0018960 4-nitrophenol metabolic process 1 1 0.02 0.0216 1
+GO:1900280 negative regulation of CD4-positive, alp... 1 1 0.02 0.0216 1
+GO:0018910 benzene metabolic process 1 1 0.02 0.0216 1
+GO:0008612 peptidyl-lysine modification to peptidyl... 1 1 0.02 0.0216 1
+GO:0042197 halogenated hydrocarbon metabolic proces... 1 1 0.02 0.0216 1
+GO:0039689 negative stranded viral RNA replication 1 1 0.02 0.0216 1
+GO:0072287 metanephric distal tubule morphogenesis 1 1 0.02 0.0216 1
+GO:0044313 protein K6-linked deubiquitination 1 1 0.02 0.0216 1
+GO:0072237 metanephric proximal tubule development 1 1 0.02 0.0216 1
+GO:0042218 1-aminocyclopropane-1-carboxylate biosyn... 1 1 0.02 0.0216 1
+GO:1904472 positive regulation of endothelin secret... 1 1 0.02 0.0216 1
+GO:0018885 carbon tetrachloride metabolic process 1 1 0.02 0.0216 1
+GO:0099575 regulation of protein catabolic process ... 1 1 0.02 0.0216 1
+GO:0051415 microtubule nucleation by interphase mic... 1 1 0.02 0.0216 1
+GO:1902082 positive regulation of calcium ion impor... 1 1 0.02 0.0216 1
+GO:0010606 positive regulation of cytoplasmic mRNA ... 1 1 0.02 0.0216 1
+GO:0006539 glutamate catabolic process via 2-oxoglu... 1 1 0.02 0.0216 1
+GO:0016998 cell wall macromolecule catabolic proces... 1 1 0.02 0.0216 1
+GO:0019452 L-cysteine catabolic process to taurine 1 1 0.02 0.0216 1
+GO:0060454 positive regulation of gastric acid secr... 1 1 0.02 0.0216 1
+GO:1990167 protein K27-linked deubiquitination 1 1 0.02 0.0216 1
+GO:0019449 L-cysteine catabolic process to hypotaur... 1 1 0.02 0.0216 1
+GO:1900480 regulation of diacylglycerol biosyntheti... 1 1 0.02 0.0216 1
+GO:1904597 negative regulation of connective tissue... 1 1 0.02 0.0216 1
+GO:0002100 tRNA wobble adenosine to inosine editing 1 1 0.02 0.0216 1
+GO:0007635 chemosensory behavior 11 2 0.24 0.0224 1
+GO:0098719 sodium ion import across plasma membrane 11 2 0.24 0.0224 1
+GO:0008654 phospholipid biosynthetic process 102 3 2.2 0.0268 1
+GO:1902600 proton transmembrane transport 53 4 1.14 0.0270 1
+GO:0090630 activation of GTPase activity 53 4 1.14 0.0270 1
+GO:0048856 anatomical structure development 3324 50 71.74 0.0341 1
+GO:0061621 canonical glycolysis 14 2 0.3 0.0355 1
+GO:0050954 sensory perception of mechanical stimulu... 120 4 2.59 0.0426 1
+GO:0030103 vasopressin secretion 2 1 0.04 0.0427 1
+GO:0042412 taurine biosynthetic process 2 1 0.04 0.0427 1
+GO:0060763 mammary duct terminal end bud growth 2 1 0.04 0.0427 1
+GO:0031064 negative regulation of histone deacetyla... 2 1 0.04 0.0427 1
+GO:0032470 positive regulation of endoplasmic retic... 2 1 0.04 0.0427 1

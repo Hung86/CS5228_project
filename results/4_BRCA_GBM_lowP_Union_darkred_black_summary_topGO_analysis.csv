@@ -1,0 +1,51 @@
+GO.ID Term Annotated Significant Expected weightFisher p.adj
+GO:0001580 detection of chemical stimulus involved ... 15 5 0.71 0.00046 1
+GO:0031424 keratinization 55 6 2.59 0.00177 1
+GO:1903566 positive regulation of protein localizat... 2 2 0.09 0.00221 1
+GO:0030718 germ-line stem cell population maintenan... 2 2 0.09 0.00221 1
+GO:0090630 activation of GTPase activity 53 8 2.5 0.00310 1
+GO:0000712 resolution of meiotic recombination inte... 7 3 0.33 0.00315 1
+GO:0016098 monoterpenoid metabolic process 3 2 0.14 0.00643 1
+GO:0006376 mRNA splice site selection 9 3 0.42 0.00704 1
+GO:0034638 phosphatidylcholine catabolic process 10 3 0.47 0.00971 1
+GO:0007635 chemosensory behavior 11 3 0.52 0.02006 1
+GO:0045722 positive regulation of gluconeogenesis 5 2 0.24 0.02013 1
+GO:0002925 positive regulation of humoral immune re... 5 2 0.24 0.02013 1
+GO:0061737 leukotriene signaling pathway 5 2 0.24 0.02013 1
+GO:0031346 positive regulation of cell projection o... 209 7 9.85 0.02064 1
+GO:0030317 flagellated sperm motility 54 7 2.54 0.02399 1
+GO:0032099 negative regulation of appetite 6 2 0.28 0.02927 1
+GO:0003351 epithelial cilium movement involved in e... 23 4 1.08 0.03080 1
+GO:0048240 sperm capacitation 15 3 0.71 0.03093 1
+GO:0008202 steroid metabolic process 169 8 7.96 0.03145 1
+GO:0006508 proteolysis 742 37 34.96 0.03731 1
+GO:0045815 positive regulation of gene expression, ... 14 3 0.66 0.03958 1
+GO:0035864 response to potassium ion 7 2 0.33 0.03971 1
+GO:0030157 pancreatic juice secretion 7 2 0.33 0.03971 1
+GO:0007030 Golgi organization 29 4 1.37 0.04537 1
+GO:0035825 homologous recombination 24 6 1.13 0.04659 1
+GO:0106134 positive regulation of cardiac muscle ce... 3 2 0.14 0.04699 1
+GO:0044154 histone H3-K14 acetylation 4 2 0.19 0.04700 1
+GO:0030832 regulation of actin filament length 93 6 4.38 0.04702 1
+GO:0072237 metanephric proximal tubule development 1 1 0.05 0.04711 1
+GO:0042197 halogenated hydrocarbon metabolic proces... 1 1 0.05 0.04711 1
+GO:0019284 L-methionine salvage from S-adenosylmeth... 1 1 0.05 0.04711 1
+GO:0070684 seminal clot liquefaction 1 1 0.05 0.04711 1
+GO:0002100 tRNA wobble adenosine to inosine editing 1 1 0.05 0.04711 1
+GO:0018885 carbon tetrachloride metabolic process 1 1 0.05 0.04711 1
+GO:0019243 methylglyoxal catabolic process to D-lac... 1 1 0.05 0.04711 1
+GO:0071569 protein ufmylation 1 1 0.05 0.04711 1
+GO:1905349 ciliary transition zone assembly 1 1 0.05 0.04711 1
+GO:0001880 Mullerian duct regression 1 1 0.05 0.04711 1
+GO:0045008 depyrimidination 1 1 0.05 0.04711 1
+GO:0008612 peptidyl-lysine modification to peptidyl... 1 1 0.05 0.04711 1
+GO:0016998 cell wall macromolecule catabolic proces... 1 1 0.05 0.04711 1
+GO:0042218 1-aminocyclopropane-1-carboxylate biosyn... 1 1 0.05 0.04711 1
+GO:0099575 regulation of protein catabolic process ... 1 1 0.05 0.04711 1
+GO:0001582 detection of chemical stimulus involved ... 1 1 0.05 0.04711 1
+GO:0044313 protein K6-linked deubiquitination 1 1 0.05 0.04711 1
+GO:0019878 lysine biosynthetic process via aminoadi... 1 1 0.05 0.04711 1
+GO:0071630 nuclear protein quality control by the u... 1 1 0.05 0.04711 1
+GO:0001546 preantral ovarian follicle growth 1 1 0.05 0.04711 1
+GO:1902616 acyl carnitine transmembrane transport 1 1 0.05 0.04711 1
+GO:0010606 positive regulation of cytoplasmic mRNA ... 1 1 0.05 0.04711 1

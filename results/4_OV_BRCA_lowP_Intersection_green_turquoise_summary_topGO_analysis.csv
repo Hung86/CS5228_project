@@ -1,0 +1,51 @@
+GO.ID Term Annotated Significant Expected weightFisher p.adj
+GO:0007052 mitotic spindle organization 49 28 1.46 2.5e-16 0
+GO:0007059 chromosome segregation 122 64 3.63 2.0e-14 0
+GO:0031145 anaphase-promoting complex-dependent cat... 20 12 0.59 3.2e-13 0
+GO:0000281 mitotic cytokinesis 28 15 0.83 6.1e-13 0
+GO:0006260 DNA replication 105 41 3.12 2.9e-12 0
+GO:0000082 G1/S transition of mitotic cell cycle 121 31 3.6 1.7e-11 0
+GO:0007094 mitotic spindle assembly checkpoint 20 13 0.59 7.0e-11 0
+GO:0000079 regulation of cyclin-dependent protein s... 56 16 1.67 2.9e-10 0
+GO:0007049 cell cycle 709 145 21.09 3.2e-10 0
+GO:0007080 mitotic metaphase plate congression 15 13 0.45 5.3e-10 0
+GO:0034080 CENP-A containing nucleosome assembly 13 8 0.39 6.1e-10 0
+GO:0006270 DNA replication initiation 19 10 0.57 2.7e-09 0
+GO:0051382 kinetochore assembly 8 6 0.24 1.7e-08 0
+GO:0006890 retrograde vesicle-mediated transport, G... 18 8 0.54 1.8e-08 0
+GO:0090307 mitotic spindle assembly 25 14 0.74 2.2e-08 0
+GO:0010971 positive regulation of G2/M transition o... 13 7 0.39 2.8e-08 0
+GO:0032508 DNA duplex unwinding 37 13 1.1 4.0e-08 0
+GO:0000083 regulation of transcription involved in ... 18 9 0.54 1.6e-07 1e-04
+GO:0036297 interstrand cross-link repair 17 8 0.51 1.7e-07 1e-04
+GO:0070317 negative regulation of G0 to G1 transiti... 11 6 0.33 2.6e-07 2e-04
+GO:0010389 regulation of G2/M transition of mitotic... 61 21 1.81 3.5e-07 2e-04
+GO:0000278 mitotic cell cycle 405 118 12.05 4.1e-07 3e-04
+GO:0007076 mitotic chromosome condensation 7 5 0.21 4.5e-07 3e-04
+GO:0051256 mitotic spindle midzone assembly 7 5 0.21 4.5e-07 3e-04
+GO:0000724 double-strand break repair via homologou... 46 18 1.37 5.1e-07 3e-04
+GO:0051315 attachment of mitotic spindle microtubul... 6 6 0.18 7.4e-07 4e-04
+GO:0006977 DNA damage response, signal transduction... 27 8 0.8 7.4e-07 4e-04
+GO:0072425 signal transduction involved in G2 DNA d... 4 4 0.12 7.6e-07 4e-04
+GO:1901796 regulation of signal transduction by p53... 63 11 1.87 8.6e-07 4e-04
+GO:0000070 mitotic sister chromatid segregation 64 41 1.9 1.1e-06 5e-04
+GO:0007018 microtubule-based movement 137 15 4.07 1.5e-06 7e-04
+GO:0008283 cell population proliferation 1157 47 34.41 2.3e-06 0.001
+GO:0007019 microtubule depolymerization 26 7 0.77 2.5e-06 0.001
+GO:0000727 double-strand break repair via break-ind... 9 5 0.27 2.5e-06 0.001
+GO:0000086 G2/M transition of mitotic cell cycle 86 28 2.56 3.1e-06 0.0012
+GO:0051383 kinetochore organization 13 10 0.39 3.4e-06 0.0013
+GO:0000076 DNA replication checkpoint 8 6 0.24 3.6e-06 0.0013
+GO:0071168 protein localization to chromatin 6 5 0.18 3.7e-06 0.0013
+GO:1904668 positive regulation of ubiquitin protein... 5 4 0.15 3.7e-06 0.0013
+GO:0032467 positive regulation of cytokinesis 17 6 0.51 6.1e-06 0.0021
+GO:0007131 reciprocal meiotic recombination 23 9 0.68 8.2e-06 0.0028
+GO:0000132 establishment of mitotic spindle orienta... 11 5 0.33 8.9e-06 0.003
+GO:0032465 regulation of cytokinesis 40 14 1.19 1.0e-05 0.0032
+GO:0007077 mitotic nuclear envelope disassembly 6 4 0.18 1.1e-05 0.0035
+GO:0006281 DNA repair 142 42 4.22 1.7e-05 0.0053
+GO:0019886 antigen processing and presentation of e... 40 8 1.19 1.8e-05 0.0055
+GO:0000733 DNA strand renaturation 3 3 0.09 2.6e-05 0.0076
+GO:0048478 replication fork protection 3 3 0.09 2.6e-05 0.0076
+GO:0007088 regulation of mitotic nuclear division 83 33 2.47 5.2e-05 0.0148
+GO:0051321 meiotic cell cycle 116 38 3.45 7.0e-05 0.0195

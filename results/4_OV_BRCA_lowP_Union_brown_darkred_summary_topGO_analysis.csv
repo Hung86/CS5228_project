@@ -1,0 +1,51 @@
+GO.ID Term Annotated Significant Expected weightFisher p.adj
+GO:0001580 detection of chemical stimulus involved ... 15 6 0.87 0.00012 1
+GO:0035036 sperm-egg recognition 30 7 1.74 0.00036 1
+GO:0046219 indolalkylamine biosynthetic process 5 3 0.29 0.00179 1
+GO:0071318 cellular response to ATP 11 4 0.64 0.00268 1
+GO:0090630 activation of GTPase activity 53 9 3.08 0.00315 1
+GO:0030187 melatonin biosynthetic process 2 2 0.12 0.00338 1
+GO:0045792 negative regulation of cell size 2 2 0.12 0.00338 1
+GO:0070315 G1 to G0 transition involved in cell dif... 2 2 0.12 0.00338 1
+GO:0008202 steroid metabolic process 169 10 9.83 0.00505 1
+GO:0090037 positive regulation of protein kinase C ... 8 3 0.47 0.00879 1
+GO:0099703 induction of synaptic vesicle exocytosis... 3 2 0.17 0.00974 1
+GO:2001200 positive regulation of dendritic cell di... 3 2 0.17 0.00974 1
+GO:0099525 presynaptic dense core vesicle exocytosi... 3 2 0.17 0.00974 1
+GO:0016098 monoterpenoid metabolic process 3 2 0.17 0.00974 1
+GO:0032741 positive regulation of interleukin-18 pr... 3 2 0.17 0.00974 1
+GO:1903766 positive regulation of potassium ion exp... 3 2 0.17 0.00974 1
+GO:0006886 intracellular protein transport 345 20 20.07 0.00998 1
+GO:0098656 anion transmembrane transport 196 17 11.4 0.01288 1
+GO:0007601 visual perception 150 16 8.72 0.01341 1
+GO:0006468 protein phosphorylation 1075 54 62.53 0.01396 1
+GO:0035995 detection of muscle stretch 4 2 0.23 0.01873 1
+GO:0035965 cardiolipin acyl-chain remodeling 4 2 0.23 0.01873 1
+GO:0009637 response to blue light 4 2 0.23 0.01873 1
+GO:0044245 polysaccharide digestion 4 2 0.23 0.01873 1
+GO:0061408 positive regulation of transcription fro... 4 2 0.23 0.01873 1
+GO:1990511 piRNA biosynthetic process 4 2 0.23 0.01873 1
+GO:0097211 cellular response to gonadotropin-releas... 4 2 0.23 0.01873 1
+GO:0030317 flagellated sperm motility 54 8 3.14 0.01981 1
+GO:0007275 multicellular organism development 3079 129 179.09 0.02314 1
+GO:0045214 sarcomere organization 33 6 1.92 0.02411 1
+GO:0007030 Golgi organization 29 5 1.69 0.02428 1
+GO:0002052 positive regulation of neuroblast prolif... 20 4 1.16 0.02602 1
+GO:0050910 detection of mechanical stimulus involve... 12 3 0.7 0.02901 1
+GO:0043950 positive regulation of cAMP-mediated sig... 12 3 0.7 0.02901 1
+GO:0034695 response to prostaglandin E 15 3 0.87 0.02996 1
+GO:0061737 leukotriene signaling pathway 5 2 0.29 0.03002 1
+GO:1902261 positive regulation of delayed rectifier... 5 2 0.29 0.03002 1
+GO:1990962 xenobiotic transport across blood-brain ... 5 2 0.29 0.03002 1
+GO:0060335 positive regulation of interferon-gamma-... 5 2 0.29 0.03002 1
+GO:0032099 negative regulation of appetite 6 2 0.35 0.04331 1
+GO:0070989 oxidative demethylation 6 2 0.35 0.04331 1
+GO:0071286 cellular response to magnesium ion 6 2 0.35 0.04331 1
+GO:0060372 regulation of atrial cardiac muscle cell... 6 2 0.35 0.04331 1
+GO:0006646 phosphatidylethanolamine biosynthetic pr... 6 2 0.35 0.04331 1
+GO:0048066 developmental pigmentation 28 3 1.63 0.04336 1
+GO:0007517 muscle organ development 247 10 14.37 0.04359 1
+GO:0022400 regulation of rhodopsin mediated signali... 14 3 0.81 0.04404 1
+GO:0005975 carbohydrate metabolic process 267 17 15.53 0.04964 1
+GO:0006814 sodium ion transport 150 15 8.72 0.05273 1
+GO:0048240 sperm capacitation 15 3 0.87 0.05275 1

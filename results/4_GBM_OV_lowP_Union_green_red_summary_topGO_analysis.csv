@@ -1,0 +1,51 @@
+GO.ID Term Annotated Significant Expected weightFisher p.adj
+GO:0030317 flagellated sperm motility 54 23 3.08 1.4e-12 0
+GO:0003341 cilium movement 50 36 2.85 3.1e-12 0
+GO:0036158 outer dynein arm assembly 12 10 0.68 1.9e-11 0
+GO:0036159 inner dynein arm assembly 9 8 0.51 8.9e-10 0
+GO:0060287 epithelial cilium movement involved in d... 8 7 0.46 1.4e-08 0
+GO:0035082 axoneme assembly 41 33 2.34 2.7e-08 1e-04
+GO:0060285 cilium-dependent cell motility 67 34 3.82 4.1e-08 1e-04
+GO:0060271 cilium assembly 148 63 8.43 1.6e-07 3e-04
+GO:0060294 cilium movement involved in cell motilit... 12 8 0.68 1.9e-07 3e-04
+GO:0003351 epithelial cilium movement involved in e... 23 14 1.31 2.1e-06 0.0029
+GO:0061512 protein localization to cilium 23 12 1.31 4.2e-06 0.0053
+GO:0003356 regulation of cilium beat frequency 6 5 0.34 1.0e-05 0.0116
+GO:0007368 determination of left/right symmetry 77 20 4.39 1.3e-05 0.014
+GO:0044458 motile cilium assembly 9 6 0.51 2.8e-05 0.0261
+GO:0035735 intraciliary transport involved in ciliu... 8 5 0.46 2.8e-05 0.0261
+GO:0042073 intraciliary transport 15 11 0.85 4.7e-05 0.041
+GO:1904491 protein localization to ciliary transiti... 5 4 0.28 5.0e-05 0.0411
+GO:0007283 spermatogenesis 238 40 13.56 6.0e-05 0.0465
+GO:0030030 cell projection organization 891 98 50.77 0.00012 0.0882
+GO:0007018 microtubule-based movement 137 56 7.81 0.00013 0.0907
+GO:0007288 sperm axoneme assembly 6 4 0.34 0.00014 0.0931
+GO:0070286 axonemal dynein complex assembly 21 18 1.2 0.00017 0.1079
+GO:1904158 axonemal central apparatus assembly 3 3 0.17 0.00018 0.1093
+GO:0036101 leukotriene B4 catabolic process 4 3 0.23 0.00070 0.3619
+GO:1902412 regulation of mitotic cytokinesis 4 3 0.23 0.00070 0.3619
+GO:0042361 menaquinone catabolic process 4 3 0.23 0.00070 0.3619
+GO:0042377 vitamin K catabolic process 4 3 0.23 0.00070 0.3619
+GO:1905515 non-motile cilium assembly 18 7 1.03 0.00075 0.3739
+GO:0021591 ventricular system development 17 5 0.97 0.00104 0.5006
+GO:1902017 regulation of cilium assembly 20 8 1.14 0.00161 0.7492
+GO:0042376 phylloquinone catabolic process 5 3 0.28 0.00169 0.761
+GO:0006625 protein targeting to peroxisome 18 5 1.03 0.00271 1
+GO:0051321 meiotic cell cycle 116 8 6.61 0.00278 1
+GO:0071907 determination of digestive tract left/ri... 6 3 0.34 0.00323 1
+GO:0090663 galanin-activated signaling pathway 2 2 0.11 0.00324 1
+GO:0003095 pressure natriuresis 2 2 0.11 0.00324 1
+GO:0044782 cilium organization 160 70 9.12 0.00356 1
+GO:0048240 sperm capacitation 15 5 0.85 0.00654 1
+GO:0001578 microtubule bundle formation 57 37 3.25 0.00846 1
+GO:0035721 intraciliary retrograde transport 4 3 0.23 0.00931 1
+GO:0009142 nucleoside triphosphate biosynthetic pro... 18 3 1.03 0.00935 1
+GO:0035610 protein side chain deglutamylation 3 2 0.17 0.00935 1
+GO:0006163 purine nucleotide metabolic process 178 9 10.14 0.00948 1
+GO:0007224 smoothened signaling pathway 77 10 4.39 0.01120 1
+GO:0019373 epoxygenase P450 pathway 9 3 0.51 0.01192 1
+GO:0006165 nucleoside diphosphate phosphorylation 56 4 3.19 0.01205 1
+GO:0045494 photoreceptor cell maintenance 27 5 1.54 0.01673 1
+GO:0035469 determination of pancreatic left/right a... 4 2 0.23 0.01800 1
+GO:0018095 protein polyglutamylation 4 2 0.23 0.01800 1
+GO:0051013 microtubule severing 4 2 0.23 0.01800 1
